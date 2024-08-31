@@ -1,0 +1,16 @@
+{
+  "name": "not-invented-here",
+  "license": "MIT",
+  "author": "Anna Sokolova <a.sokolova.dev@gmail.com>",
+  "description": "Re-inventing existing functions for fun",
+  "type": "module",
+  "scripts": {
+    "test": "pnpm run -r --include-workspace-root /^test:/",
+    "test:functions": "node test/index.js",
+    "test:js": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config": "github:a-sokolova-dev/eslint-config"
+  }
+}
